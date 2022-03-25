@@ -1,0 +1,56 @@
+::-webkit-scrollbar {
+    background: white;
+}
+::-webkit-scrollbar-thumb {
+background: black;
+}
+.header {
+    background: rgba(0, 0, 0, 0.1 );
+}
+main {
+    background: black;
+}
+.about__page {
+    background: url("../img/Frame8.png") center center no-repeat;
+    background-size: cover;
+    padding-top: 300px;
+    text-align: center;
+}
+.about__page img {
+    width: auto;
+}
+.about__what {
+    display: flex;
+    justify-content: space-around;
+}
+.about__what h2 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    color: #FF197A;
+}
+.about__what p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-align: left;
+
+}
+.what__right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 800px;
+}
+.youtube {
+    position: relative;
+    margin-top: -229px;
+}
+iframe {
+    position: absolute;
+    top: 24%;
+    left: 21%;
+    width: 1150px;
+    height: 630px;
+}
